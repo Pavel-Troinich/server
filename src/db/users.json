@@ -45,7 +45,8 @@
         "user": {
           "id": "0",
           "name": "Megan",
-          "surname": "Fox"
+          "surname": "Fox",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/megan/2.jpeg"
         },
         "date": "1676475021785",
         "text": "Хто тримає цей район? Пес Патрон, пес Патрон!",
@@ -57,7 +58,8 @@
         "user": {
           "id": "0",
           "name": "Megan",
-          "surname": "Fox"
+          "surname": "Fox",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/megan/2.jpeg"
         },
         "date": "1676488446677",
         "text": "Хто крутіший за iPhone? Пес Патрон, пес Патрон!",
@@ -69,7 +71,8 @@
         "user": {
           "id": "0",
           "name": "Megan",
-          "surname": "Fox"
+          "surname": "Fox",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/megan/2.jpeg"
         },
         "date": "1673388774477",
         "text": "Хто не ходить на газон? Пес Патрон, пес Патрон!",
@@ -196,7 +199,8 @@
         "user": {
           "id": "1",
           "name": "Slim",
-          "surname": "Shady"
+          "surname": "Shady",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/eminem/3.jpeg"
         },
         "date": "1676475021785",
         "text": "Megan Fox is not real!!",
@@ -345,18 +349,6 @@
         "name": "Biggie",
         "surname": "Smalls",
         "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/notorius/5.jpeg"
-      },
-      {
-        "id": "2",
-        "name": "John",
-        "surname": "Patron",
-        "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/patron/1.jpeg"
-      },
-      {
-        "id": "3",
-        "name": "Charly",
-        "surname": "Chaplin",
-        "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/megan/2.jpeg"
       }
     ],
     "posts": [
@@ -365,7 +357,8 @@
         "user": {
           "id": "2",
           "name": "Dog",
-          "surname": "Patron"
+          "surname": "Patron",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/patron/1.jpeg"
         },
         "date": "1676475021785",
         "text": "кішки sucks",
@@ -377,7 +370,8 @@
         "user": {
           "id": "2",
           "name": "Dog",
-          "surname": "Patron"
+          "surname": "Patron",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/patron/1.jpeg"
         },
         "date": "1676475021789",
         "text": "I <3 NY",
@@ -485,7 +479,8 @@
         "user": {
           "id": "3",
           "name": "Biggie",
-          "surname": "Smalls"
+          "surname": "Smalls",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/notorius/5.jpeg"
         },
         "date": "1676475021785",
         "text": "Biggie, Biggie, Biggie, can't you see? Sometimes your words just hypnotize me.",
@@ -497,7 +492,8 @@
         "user": {
           "id": "3",
           "name": "Biggie",
-          "surname": "Smalls"
+          "surname": "Smalls",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/notorius/5.jpeg"
         },
         "date": "1676475021799",
         "text": "And I just love your flashy ways. Guess that's why they broke, and you're so paid.",
@@ -509,7 +505,8 @@
         "user": {
           "id": "3",
           "name": "Biggie",
-          "surname": "Smalls"
+          "surname": "Smalls",
+          "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/notorius/5.jpeg"
         },
         "date": "1676475021799",
         "text": "I love CATS more than dogs =^____^=",
