@@ -15,11 +15,11 @@ export const readUsers = (usersPath: string) => {
   });
 };
 
-export const formatMessage = (message: string) => {
-  const { text, userIdTo } = JSON.parse(message) as UserMessageInterface;
+export const formatMessage = (message: UserMessageInterface) => {
+  const { text, userId } = message;
 
   return {
-    userIdTo,
+    userId,
     text,
     time: moment(new Date()).format('h:mm a'),
   };

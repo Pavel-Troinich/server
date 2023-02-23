@@ -93,17 +93,17 @@
         "history": [
           {
             "text": "Hi Megan how are you.....",
-            "time": "1673388774477",
+            "time": "1:20 pm",
             "isOwnMessage": false
           },
           {
             "text": "I think you are not real just government project",
-            "time": "1673388774477",
+            "time": "1:20 pm",
             "isOwnMessage": false
           },
           {
             "text": "Ok...",
-            "time": "1673388774479",
+            "time": "2:43 pm",
             "isOwnMessage": true
           }
         ]
@@ -118,12 +118,12 @@
         "history": [
           {
             "text": "Patron you are the best dog!!!!",
-            "time": "1673388774477",
+            "time": "3:20 pm",
             "isOwnMessage": true
           },
           {
             "text": "Дзякуй Меган, ти теж супер!",
-            "time": "1673388774488",
+            "time": "3:21 pm",
             "isOwnMessage": false
           }
         ]
@@ -138,12 +138,12 @@
         "history": [
           {
             "text": "Wanna hang out?",
-            "time": "1673388774477",
+            "time": "11:00 am",
             "isOwnMessage": true
           },
           {
             "text": "Дзякуй Меган, but no",
-            "time": "1673388774488",
+            "time": "11:10 am",
             "isOwnMessage": false
           }
         ]
@@ -192,16 +192,16 @@
     ],
     "posts": [
       {
+        "id": "3",
         "user": {
           "id": "1",
           "name": "Slim",
           "surname": "Shady"
         },
-        "date": 1676713733531,
-        "text": "счмтпраоюлиь",
+        "date": "1676475021785",
+        "text": "Megan Fox is not real!!",
         "likes": 0,
-        "isLikedByUser": false,
-        "id": "8a7639ac-34e0-490c-929e-4e77cd7063dc"
+        "isLikedByUser": false
       }
     ],
     "photos": [
@@ -240,17 +240,17 @@
         "history": [
           {
             "text": "Hi Megan how are you.....",
-            "time": "1673388774477",
+            "time": "1:20 pm",
             "isOwnMessage": true
           },
           {
             "text": "I think you are not real just government project",
-            "time": "1673388774488",
+            "time": "1:20 pm",
             "isOwnMessage": true
           },
           {
             "text": "Ok..",
-            "time": "1673388774499",
+            "time": "2:43 pm",
             "isOwnMessage": false
           }
         ]
@@ -265,17 +265,17 @@
         "history": [
           {
             "text": "Heard Rihanna's last song?",
-            "time": "1673388774347",
+            "time": "01:01 am",
             "isOwnMessage": true
           },
           {
             "text": "Yes it's sucks",
-            "time": "1673388774488",
+            "time": "01:02 am",
             "isOwnMessage": false
           },
           {
             "text": "Agree",
-            "time": "1673388774499",
+            "time": "01:03 am",
             "isOwnMessage": true
           }
         ]
@@ -290,17 +290,17 @@
         "history": [
           {
             "text": "Heard Rihanna's last song?",
-            "time": "1673388774347",
+            "time": "10:15 am",
             "isOwnMessage": true
           },
           {
             "text": "No eminem relax she's better than you anyway..",
-            "time": "1673388774488",
+            "time": "01:58 pm",
             "isOwnMessage": false
           },
           {
             "text": "Cruel",
-            "time": "1673388774499",
+            "time": "08:01 am",
             "isOwnMessage": true
           }
         ]
@@ -336,6 +336,12 @@
       },
       {
         "id": "1",
+        "name": "Slim",
+        "surname": "Shady",
+        "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/eminem/3.jpeg"
+      },
+      {
+        "id": "3",
         "name": "Biggie",
         "surname": "Smalls",
         "profilePhoto": "https://raw.githubusercontent.com/zhuravskayalina/soc-network-photos/main/notorius/5.jpeg"
@@ -396,12 +402,12 @@
         "history": [
           {
             "text": "Patron you are the best dog!!!!",
-            "time": "1673388774477",
+            "time": "3:20 pm",
             "isOwnMessage": false
           },
           {
             "text": "Дзякуй Меган, ти теж супер!",
-            "time": "1673388774488",
+            "time": "3:21 pm",
             "isOwnMessage": true
           }
         ]
@@ -416,17 +422,17 @@
         "history": [
           {
             "text": "Heard Rihanna's last song?",
-            "time": "1673388774347",
+            "time": "10:15 am",
             "isOwnMessage": false
           },
           {
             "text": "No eminem relax she's better than you anyway..",
-            "time": "1673388774488",
+            "time": "01:58 pm",
             "isOwnMessage": true
           },
           {
             "text": "Cruel",
-            "time": "1673388774499",
+            "time": "08:01 am",
             "isOwnMessage": false
           }
         ]
@@ -529,12 +535,12 @@
         "history": [
           {
             "text": "Wanna hang out?",
-            "time": "1673388774477",
+            "time": "11:00 am",
             "isOwnMessage": false
           },
           {
             "text": "Дзякуй Меган, but no",
-            "time": "1673388774488",
+            "time": "11:10 am",
             "isOwnMessage": true
           }
         ]
@@ -549,17 +555,17 @@
         "history": [
           {
             "text": "Heard Rihanna's last song?",
-            "time": "1673388774347",
+            "time": "01:01 am",
             "isOwnMessage": false
           },
           {
             "text": "Yes it's sucks",
-            "time": "1673388774488",
+            "time": "01:02 am",
             "isOwnMessage": true
           },
           {
             "text": "Agree",
-            "time": "1673388774499",
+            "time": "01:03 am",
             "isOwnMessage": false
           }
         ]

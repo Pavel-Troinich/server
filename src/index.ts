@@ -1,6 +1,11 @@
-import express, { NextFunction, Request, Response } from 'express';
+import express, {
+  NextFunction,
+  Request,
+  Response,
+  json,
+  urlencoded,
+} from 'express';
 import cors from 'cors';
-import bodyParser from 'body-parser';
 import { Server } from 'socket.io';
 import http from 'http';
 
@@ -19,20 +24,33 @@ const server = http.createServer(app);
 const wss = new Server(server, { cors: { ...cors() } });
 
 wss.on('connection', (socket) => {
-  socket.on('userId', (message) => {
-    const { userIdFrom, userIdTo } = message;
-    const room = `${userIdFrom}-${userIdTo} Room`;
+  const users = Array.from(wss.of('/').sockets.entries()).map(
+    ([id, socket]) => ({
+      userSocketId: id,
+      userId: socket.handshake.auth.userId,
+    }),
+  );
+  socket.emit('users', users);
 
-    socket.join(room);
-    socket.on('chatMessage', async (message) => {
-      const { text, time } = formatMessage(message);
-      await updateChatHistory(userIdFrom, userIdTo, { text, time });
-      socket.broadcast.to(room).emit('message', JSON.stringify({ text, time }));
-    });
+  socket.broadcast.emit('user connected', {
+    userSocketId: socket.id,
+    userId: socket.handshake.auth.userId,
+  });
+
+  socket.on('chatMessage', async ({ to, ...rest }) => {
+    const userIdFrom = users.find((user) => user.userSocketId === to)?.userId;
+    const { text, time, userId } = formatMessage(rest);
+
+    await updateChatHistory(`${userIdFrom}`, `${userId}`, { text, time });
+
+    socket.broadcast.to(to).emit('message', { text, time });
   });
 });
 
-app.use(cors(), bodyParser.json(), bodyParser.urlencoded({ extended: false }));
+app.use(cors());
+app.use(urlencoded({ extended: false }));
+app.use(json());
+
 app.use((req: Request, res: Response, next: NextFunction) => {
   res.setHeader('charset', 'utf8');
   res.setHeader('Content-Type', 'application/json');

@@ -77,5 +77,6 @@ export type HandlerFunction = (
 
 export interface UserMessageInterface {
   readonly text: string;
-  readonly userIdTo: string;
+  readonly userId: string;
+  readonly to: string;
 }
